@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tasks</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <ul class="list-item">
+    <li class="list-group-item" *ngFor="let task of tasks" >
+      {{task._id}} - {{task.name}}:{{task.description}}
+    </li>
+  </ul>
+  
+</ion-content>

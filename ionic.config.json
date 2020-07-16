@@ -1,0 +1,7 @@
+{
+  "name": "lastGoogleKeep",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
